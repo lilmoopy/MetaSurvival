@@ -1,0 +1,8 @@
+main: org.geppi.main.Main
+version: 1.0
+author: srgeppi
+name: MetaSurvival
+
+commands:
+  metasurvival:
+  killstreak:

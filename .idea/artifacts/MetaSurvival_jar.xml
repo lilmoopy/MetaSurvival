@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MetaSurvival:jar">
+    <output-path>$USER_HOME$/Desktop/Maddie Server</output-path>
+    <root id="archive" name="MetaSurvival.jar">
+      <element id="module-output" name="MetaSurvival" />
+    </root>
+  </artifact>
+</component>

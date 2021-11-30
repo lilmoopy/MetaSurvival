@@ -30,11 +30,11 @@ public class ReferCMD implements Listener {
 
             if (playerHandler.getHasReferred(player) == 0) {
                 player.sendMessage(colorHandler.main + "Refer: " + colorHandler.message + "You have not used your referral!");
-                player.sendMessage(colorHandler.main + "Refer: " + colorHandler.message + "You currently have " + String.valueOf(playerHandler.getReferrals(player)) + " referrals!");
+                player.sendMessage(colorHandler.main + "Refer: " + colorHandler.message + "You currently have " + playerHandler.getReferrals(player) + " referrals!");
             }
             if (playerHandler.getHasReferred(player) == 1) {
                 player.sendMessage(colorHandler.main + "Refer: " + colorHandler.message + "You have already used your referral!");
-                player.sendMessage(colorHandler.main + "Refer: " + colorHandler.message + "You currently have " + String.valueOf(playerHandler.getReferrals(player)) + " referrals!");
+                player.sendMessage(colorHandler.main + "Refer: " + colorHandler.message + "You currently have " + playerHandler.getReferrals(player) + " referrals!");
             }
 
         }

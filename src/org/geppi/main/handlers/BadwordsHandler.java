@@ -11,8 +11,8 @@ import java.util.List;
 
 public class BadwordsHandler {
 
-    private File file;
-    private FileConfiguration badwordsConfig;
+    private final File file;
+    private final FileConfiguration badwordsConfig;
 
     public BadwordsHandler(JavaPlugin plugin) {
         if (!plugin.getDataFolder().exists())

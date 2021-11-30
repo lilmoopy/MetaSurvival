@@ -33,7 +33,7 @@ public class Bar {
 
             int count = -1;
             double progress = 1.0;
-            double time = 1.0/30;
+            final double time = 1.0/30;
 
             @Override
             public void run() {

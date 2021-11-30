@@ -30,7 +30,7 @@ public class KillstreakCMD implements CommandExecutor {
         player.sendMessage(colorHandler.main + "Kills: " + colorHandler.message + playerHandler.getKills(player));
         player.sendMessage(colorHandler.main + "Deaths: " + colorHandler.message + playerHandler.getDeaths(player));
         player.sendMessage(colorHandler.main + "Last Killed By: " + colorHandler.message + playerHandler.getLKBP(player));
-        player.sendMessage(colorHandler.main + "K/D Ratio: " + colorHandler.message + String.valueOf(ratio));
+        player.sendMessage(colorHandler.main + "K/D Ratio: " + colorHandler.message + ratio);
         return true;
     }
 

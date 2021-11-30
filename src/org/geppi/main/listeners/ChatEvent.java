@@ -25,10 +25,10 @@ public class ChatEvent implements Listener  {
         return PlaceholderAPI.setPlaceholders(player, msg);
     }
 
-    private Map<UUID, Long> cooldowns = new HashMap<>();
-    private Map<UUID, String> lastMessage = new HashMap<>();
+    private final Map<UUID, Long> cooldowns = new HashMap<>();
+    private final Map<UUID, String> lastMessage = new HashMap<>();
 
-    private String staffPrefix = ChatColor.GRAY + "[" + ChatColor.BLUE + "StaffChat" + ChatColor.GRAY + "] " + ChatColor.WHITE;
+    private final String staffPrefix = ChatColor.GRAY + "[" + ChatColor.BLUE + "StaffChat" + ChatColor.GRAY + "] " + ChatColor.WHITE;
 
 
     @EventHandler(ignoreCancelled = true, priority = EventPriority.HIGHEST)
